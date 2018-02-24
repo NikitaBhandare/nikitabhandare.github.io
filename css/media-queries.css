@@ -1,4 +1,4 @@
-/* ==================================================================
+﻿/* ==================================================================
 
 *   Ceevee Media Queries
 *   url: styleshout.com
@@ -284,7 +284,10 @@
 
    /* contact Section
    ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
+   #contact { background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden; }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
       font: 16px/24px 'opensans-bold', sans-serif;            
