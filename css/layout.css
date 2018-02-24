@@ -187,30 +187,41 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+     background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  {  color: #ffffff; }
+#about a:hover, #about a:focus { color: #ffffff;  }
+
+#about h1 {
+ font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#about h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000000;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
+
+#about .header-col { padding-top: 9px; }
+#about .main-col { padding-right: 10%; }
+
+
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -236,9 +247,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+    background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
@@ -261,11 +272,6 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -416,15 +422,18 @@ ul#nav li.current a { color: #F06000; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   overflow: hidden;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
 }
+#portfolio h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -641,29 +650,26 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
    overflow: hidden;
+}
+#testimonials h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#testimonials h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
 }
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+/*#testimonials .header-col { padding-top: 9px; }*/
+/*#testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -672,10 +678,10 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #fff;
-}
+}*/
 
 /*	Blockquotes */
-#testimonials blockquote {
+/#testimonials blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
@@ -790,10 +796,11 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+    background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+   overflow: hidden;
+
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -801,14 +808,15 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+ font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
+   letter-spacing: 1px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#contact h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+/*#contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
@@ -817,7 +825,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+}*/
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -929,14 +937,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #ffffff;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #ffffff; }
+footer a:hover, footer a:focus { color: #ffffff; }
 
 /* copyright */
 footer .copyright {
@@ -951,12 +959,13 @@ footer .copyright li {
 }
 .ie footer .copyright li {
    display: inline;
+   color:white
 }
 footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #ffffff;
 }
 footer .copyright  li:first-child:before {
     display: none;
